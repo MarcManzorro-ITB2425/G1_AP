@@ -6,7 +6,7 @@
     <title>CRUD mínim</title>
 </head>
 <body>
-    <h1>Llista d’usuaris</h1>
+    <h1>Llista usuaris</h1>
     <table border="1">
         <tr><th>ID</th><th>Nom</th><th>Email</th><th>Accions</th></tr>
         <?php
