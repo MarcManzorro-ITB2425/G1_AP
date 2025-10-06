@@ -1,5 +1,5 @@
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -10,3 +10,4 @@ if ($conn->connect_error) {
     die("Connexió fallida: " . $conn->connect_error);
 }
 ?>
+

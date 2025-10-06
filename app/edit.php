@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name  = $_POST['name'];
     $email = $_POST['email'];
 
-    $stmt = $conn->prepare("UPDATE users where name=?, email=? WHERE id=?");
+    $stmt = $conn->prepare("UPDATE users SET name=?, email=? WHERE id=?");
     $stmt->bind_param("ssi", $name, $email, $id);
     $stmt->execute();
 
@@ -20,7 +20,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="ca">
 <head>
