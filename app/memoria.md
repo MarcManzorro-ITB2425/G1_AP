@@ -4,7 +4,6 @@
 ## 1.Configuracion de git y repositorios:
  1. Añadir las claves para que los compañeros y el server tengan acceso:
 ![img](./images/image5.png) 
- 2. 
 
 
 
@@ -26,11 +25,16 @@
 
 ### 💻 Servidor Web
 1. Actualizar el **sistema operativo**.  
-2. Instalar **Apache y PHP**.  
-![img](./images/image16.png) 
+2. Instalar **Apache y PHP**.
+
+![img](./images/image16.png)
+
 3. Iniciar y habilitar los servicios. 
+
 ![img](./images/image9.png) 
+
 4. Verificar que **Apache y PHP** funcionan correctamente.
+
 ![img](./images/image8.png) 
 
 ### 🗄 Servidor Base de Datos
@@ -39,7 +43,7 @@
 ![img](./images/image12.png) 
 3. Crear la **base de datos y usuario** para la aplicación.  
 ![img](./images/image2.png) 
-![img](./images/image15.png) 
+
 4. Configurar **MySQL** para aceptar conexiones externas.  
 5. Reiniciar MySQL y verificar su correcto funcionamiento.
 
@@ -52,7 +56,10 @@
 2. Configurar el **archivo de conexión a la base de datos** (config.php).  
 3. Probar la **conexión PHP a la base de datos**.  
 4. Verificar que la **aplicación se carga correctamente** en el navegador.
+
 ![img](./images/image10.png) 
+
+![img](./images/image15.png) 
 
 ---
 
